@@ -240,7 +240,7 @@ def create_network_graph(
 
     fig.update_layout(
         title=dict(
-            text="Formula Knowledge Graph",
+            text="Golden Formulas Graph",
             font=dict(size=20)
         ),
         showlegend=True,

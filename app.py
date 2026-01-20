@@ -23,7 +23,7 @@ st.markdown(
 )
 
 st.title("Golden Formulas Graph")
-st.markdown("Interactive visualization of formulas grouped by domain.")
+st.markdown("Visualize principles across domains of knowledge in graph format.")
 
 
 @st.cache_data(ttl=300)
