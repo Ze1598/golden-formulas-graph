@@ -1,4 +1,5 @@
-# Golden Formulas Graph
+# Golden Formulas Graph [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://golden-formulas-graph.streamlit.app/)
+[live app](https://golden-formulas-graph.streamlit.app/)
 
 A knowledge graph visualization application for exploring principles across multiple domains of knowledge.
 
