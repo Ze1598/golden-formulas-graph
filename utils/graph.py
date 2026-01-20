@@ -57,6 +57,7 @@ def resolve_formula_domains(formula: dict, domain_lookup: dict[str, dict]) -> li
 def create_network_graph(
     formulas: list[dict],
     domains: list[dict],
+    edges: list[dict] | None = None,
     selected_domain_ids: list[str] | None = None
 ) -> go.Figure:
     """Create an interactive network graph visualization.
@@ -64,6 +65,7 @@ def create_network_graph(
     Args:
         formulas: List of formula dictionaries
         domains: List of domain dictionaries
+        edges: List of pre-computed edge dictionaries from formula_edges table
         selected_domain_ids: Optional list of domain IDs to filter by
 
     Returns:
@@ -96,16 +98,74 @@ def create_network_graph(
         )
         return fig
 
+    # Build formula ID to index mapping for edge drawing
+    formula_id_to_index = {f["id"]: i for i, f in enumerate(formulas)}
+    formula_ids_set = set(formula_id_to_index.keys())
+
+    # Count edges per formula (degree) for node sizing
+    edge_count = {f["id"]: 0 for f in formulas}
+    if edges:
+        for edge in edges:
+            formula_a_id = edge.get("formula_a_id")
+            formula_b_id = edge.get("formula_b_id")
+            if formula_a_id in edge_count:
+                edge_count[formula_a_id] += 1
+            if formula_b_id in edge_count:
+                edge_count[formula_b_id] += 1
+
     # Calculate positions using a force-directed-like layout
     # Group formulas by their primary domain for clustering
     node_positions = calculate_node_positions(formulas, domain_lookup)
+
+    # Prepare edge traces
+    edge_traces = []
+    if edges:
+        for edge in edges:
+            formula_a_id = edge.get("formula_a_id")
+            formula_b_id = edge.get("formula_b_id")
+
+            # Only draw edge if both formulas are in the current view
+            if formula_a_id in formula_ids_set and formula_b_id in formula_ids_set:
+                idx_a = formula_id_to_index[formula_a_id]
+                idx_b = formula_id_to_index[formula_b_id]
+
+                pos_a = node_positions[idx_a]
+                pos_b = node_positions[idx_b]
+
+                edge_weight = edge.get("edge_weight", 1)
+                shared_domain_ids = edge.get("shared_domain_ids") or []
+
+                # Use first shared domain color for edge, or gray
+                if shared_domain_ids and shared_domain_ids[0] in domain_lookup:
+                    edge_color = domain_lookup[shared_domain_ids[0]]["color"]
+                else:
+                    edge_color = "#CCCCCC"
+
+                # Scale line width based on edge weight (number of shared domains)
+                line_width = max(1, min(edge_weight * 1.5, 6))
+
+                edge_trace = go.Scatter(
+                    x=[pos_a[0], pos_b[0], None],
+                    y=[pos_a[1], pos_b[1], None],
+                    mode="lines",
+                    line=dict(width=line_width, color=edge_color),
+                    hoverinfo="none",
+                    showlegend=False,
+                    opacity=0.4
+                )
+                edge_traces.append(edge_trace)
 
     # Prepare node data
     node_x = []
     node_y = []
     node_colors = []
-    node_texts = []
+    node_sizes = []
     hover_texts = []
+
+    # Calculate min/max for size scaling
+    max_edges = max(edge_count.values()) if edge_count else 1
+    min_size = 12
+    max_size = 40
 
     for i, formula in enumerate(formulas):
         pos = node_positions[i]
@@ -121,17 +181,22 @@ def create_network_graph(
         else:
             node_colors.append("#CCCCCC")
 
-        # Truncate principle text for display
-        principle = formula.get("principle", "")
-        display_text = principle[:50] + "..." if len(principle) > 50 else principle
-        node_texts.append(display_text)
+        # Calculate node size based on edge count
+        num_edges = edge_count.get(formula["id"], 0)
+        if max_edges > 0:
+            size = min_size + (num_edges / max_edges) * (max_size - min_size)
+        else:
+            size = min_size
+        node_sizes.append(size)
 
         # Build hover text
+        principle = formula.get("principle", "")
         domain_names = [d["name"] for d in formula_domains]
         hover_text = (
             f"<b>Principle:</b><br>{principle}<br><br>"
             f"<b>Domains:</b> {', '.join(domain_names) if domain_names else 'None'}<br><br>"
-            f"<b>Reference:</b> {formula.get('reference', 'N/A')}"
+            f"<b>Reference:</b> {formula.get('reference', 'N/A')}<br><br>"
+            f"<b>Connections:</b> {num_edges}"
         )
         hover_texts.append(hover_text)
 
@@ -139,22 +204,20 @@ def create_network_graph(
     node_trace = go.Scatter(
         x=node_x,
         y=node_y,
-        mode="markers+text",
+        mode="markers",
         hoverinfo="text",
         hovertext=hover_texts,
-        text=node_texts,
-        textposition="bottom center",
-        textfont=dict(size=9, color="#333"),
         marker=dict(
-            size=20,
+            size=node_sizes,
             color=node_colors,
             line=dict(width=2, color="white"),
             opacity=0.9
-        )
+        ),
+        showlegend=False
     )
 
-    # Create figure
-    fig = go.Figure(data=[node_trace])
+    # Create figure with edges first (so nodes appear on top)
+    fig = go.Figure(data=edge_traces + [node_trace])
 
     # Add legend for domains
     for domain in domains:

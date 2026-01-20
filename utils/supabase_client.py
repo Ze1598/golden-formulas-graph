@@ -65,6 +65,13 @@ def get_all_formulas() -> list[dict]:
     return response.data
 
 
+def get_all_edges() -> list[dict]:
+    """Fetch all formula edges from the database."""
+    client = get_supabase_client()
+    response = client.schema("golden_formula_graph").table("formula_edges").select("*").execute()
+    return response.data
+
+
 def get_domain_by_id(domain_id: str) -> dict | None:
     """Fetch a single domain by ID."""
     client = get_supabase_client()

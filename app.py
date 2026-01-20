@@ -1,7 +1,7 @@
 """Golden Formulas Graph - Main App."""
 
 import streamlit as st
-from utils.supabase_client import get_all_domains, get_all_formulas
+from utils.supabase_client import get_all_domains, get_all_formulas, get_all_edges
 from utils.graph import create_network_graph, build_domain_lookup, resolve_formula_domains
 
 st.set_page_config(
@@ -28,16 +28,17 @@ st.markdown("Interactive visualization of formulas grouped by domain.")
 
 @st.cache_data(ttl=300)
 def load_data():
-    """Load all domains and formulas from the database."""
+    """Load all domains, formulas, and edges from the database."""
     domains = get_all_domains()
     formulas = get_all_formulas()
-    return domains, formulas
+    edges = get_all_edges()
+    return domains, formulas, edges
 
 
 # Load data
 try:
     with st.spinner("Loading data..."):
-        domains, formulas = load_data()
+        domains, formulas, edges = load_data()
 except Exception as e:
     st.error(f"Failed to load data: {str(e)}")
     st.stop()
@@ -102,7 +103,7 @@ filtered_formulas = filter_formulas(formulas, selected_domain_ids, search_query_
 st.markdown("---")
 
 if filtered_formulas:
-    fig = create_network_graph(filtered_formulas, domains, selected_domain_ids)
+    fig = create_network_graph(filtered_formulas, domains, edges, selected_domain_ids)
     st.plotly_chart(fig, use_container_width=True)
 else:
     st.info("No formulas match the current filters.")
