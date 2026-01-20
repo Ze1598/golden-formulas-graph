@@ -9,3 +9,6 @@ wheels/
 # Virtual environments
 .venv
 .streamlit/
+
+# Dev files
+scripts/seed_data.py
