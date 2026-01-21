@@ -225,3 +225,44 @@ CREATE POLICY "Authenticated delete golden_formula_graph.formula_edges"
 -- GRANT USAGE ON SCHEMA golden_formula_graph TO service_role;
 -- GRANT ALL ON ALL TABLES IN SCHEMA golden_formula_graph TO service_role;
 -- GRANT EXECUTE ON ALL FUNCTIONS IN SCHEMA golden_formula_graph TO service_role;
+
+
+--View for analysis
+------------------------
+
+CREATE OR REPLACE VIEW golden_formula_graph.replicated_nodes AS
+WITH exploded_formulas AS (
+  SELECT 
+  id
+  ,principle
+  ,reference
+  ,domain_unnest.domain_id
+  ,domain_unnest.domain_order
+  ,cardinality(domain_ids) AS domain_count
+  FROM golden_formula_graph.formulas f
+  
+  LEFT JOIN LATERAL unnest(domain_ids)
+  WITH ORDINALITY AS domain_unnest(domain_id, domain_order) ON true
+
+)
+SELECT
+a.id
+,a.principle
+--Take first element from domain array as base domain
+,CASE
+  WHEN a.domain_order = 1
+  THEN true
+  ELSE false
+END AS is_base_domain
+,a.domain_id AS from_domain
+,b.domain_id AS to_domain
+,a.reference
+,a.domain_count
+FROM exploded_formulas a
+
+LEFT JOIN exploded_formulas b
+ON a.id = b.id
+-- Exclude self-nodes
+AND a.domain_id != b.domain_id
+
+GRANT SELECT ON golden_formula_graph.replicated_nodes TO anon;
