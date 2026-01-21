@@ -22,7 +22,9 @@ from utils.supabase_client import (
     delete_formula,
     get_formula_by_id
 )
-from utils.graph import build_domain_lookup, resolve_formula_domains
+from utils.utils import build_domain_lookup, resolve_formula_domains
+
+
 
 st.set_page_config(
     page_title="Admin | Golden Formulas",
