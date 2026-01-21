@@ -72,6 +72,17 @@ def get_all_edges() -> list[dict]:
     return response.data
 
 
+def get_replicated_nodes() -> list[dict]:
+    """Fetch replicated nodes view for graph visualization.
+
+    Each row represents an edge between domain replicas of the same principle.
+    Schema: id, principle, is_base_domain, from_domain, to_domain, reference
+    """
+    client = get_supabase_client()
+    response = client.schema("golden_formula_graph").table("replicated_nodes").select("*").execute()
+    return response.data
+
+
 def get_domain_by_id(domain_id: str) -> dict | None:
     """Fetch a single domain by ID."""
     client = get_supabase_client()

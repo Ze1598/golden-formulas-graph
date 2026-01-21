@@ -1,0 +1,2517 @@
+[
+    {
+        "domains": ["Biology", "Nutrition"],
+        "principle": "Your total daily energy expenditure (TDEE) is the total number of calories your body burns in a day to function and stay alive and its split into basal metabolic rate (BMR, around 70%), non-exercise activity thermogenesis (NEAT), thermic effect of food (TEF), and exercise activity thermogenesis (EAT).",
+        "reference": null
+    },
+    {
+        "domains": ["Biology", "Nutrition"],
+        "principle": "Basal Metabolic Rate (BMR): this is the largest chunk, accounting for around 70% of your TDEE. It's the number of calories your body burns at rest to perform essential functions like breathing, circulation, and cell repair.",
+        "reference": null
+    },
+    {
+        "domains": ["Biology", "Nutrition"],
+        "principle": "Non-Exercise Activity Thermogenesis (NEAT): this covers calories burned through all your daily movements that aren't planned exercise. Think fidgeting, walking around, standing, and even things like typing. NEAT can make up about 25% of your TDEE.",
+        "reference": null
+    },
+    {
+        "domains": ["Biology", "Nutrition"],
+        "principle": "Thermic Effect of Food (TEF): this is the energy your body uses to digest, absorb, and store the food you eat. It's about 10% of your TDEE.",
+        "reference": null
+    },
+    {
+        "domains": ["Biology", "Nutrition"],
+        "principle": "Exercise Activity Thermogenesis (EAT): this is the least significant contributor, at around 5% of TDEE. It refers to the calories you burn specifically through planned exercise sessions like running, weightlifting, or cycling.",
+        "reference": null
+    },
+    {
+        "domains": ["Biology", "Mental Health", "Emotional Regulation", "Productivity"],
+        "principle": "Circadian cycle regulation: expose body to sunlight in the morning, at least artificial light, avoid eating at least 1 hour after waking up, ideally until noon, avoid eating at least 2/3 hours before sleep, minimize (artificial) light exposure in the last third of the day, aim to exercise during the morning, use the first third of the day for more routine/less engaging activities, and the second third for more cognitive activities.",
+        "reference": null
+    },
+    {
+        "domains": ["Biology", "Emotional Regulation"],
+        "principle": "Shorter inhale, longer exhale = calmer state, heart shrinks ever so slightly, heartbeat slows down to compensate blood movement, blood moves faster through the heart; Longer inhale, shorter exhale = more energetic state, heart enlarges, heartbeat has to speed up to compensate blood movement, blood moves slower through the heart.",
+        "reference": null
+    },
+    {
+        "domains": ["Nutrition", "Strength Training"],
+        "principle": "Going to sleep feeling hungry is a good indicator of a caloric deficit.",
+        "reference": "Mike Israetel"
+    },
+    {
+        "domains": ["Bouldering"],
+        "principle": "Climb quickly without spending too long holding on to the same holds.",
+        "reference": null
+    },
+    {
+        "domains": ["Bouldering"],
+        "principle": "Increase finger strength.",
+        "reference": null
+    },
+    {
+        "domains": ["Bouldering"],
+        "principle": "Increase hip flexibility.",
+        "reference": null
+    },
+    {
+        "domains": ["Bouldering"],
+        "principle": "Get your hip close to the wall.",
+        "reference": null
+    },
+    {
+        "domains": ["Bouldering"],
+        "principle": "Climb with straight arms.",
+        "reference": null
+    },
+    {
+        "domains": ["Bouldering"],
+        "principle": "Generate momentum with your lower half.",
+        "reference": null
+    },
+    {
+        "domains": ["Bouldering"],
+        "principle": "Climb with legs first, let them frontload the effort of moving your body weight upward.",
+        "reference": null
+    },
+    {
+        "domains": ["Bouldering"],
+        "principle": "Generally, for the feet use either the big toe or the heel as the contact point to holds.",
+        "reference": null
+    },
+    {
+        "domains": ["Bouldering"],
+        "principle": "Put your arm perpendicular to the direction of the hold.",
+        "reference": null
+    },
+    {
+        "domains": ["Bouldering"],
+        "principle": "Use a loose leg to flag, create tension against the wall, or generate momentum with a pogo.",
+        "reference": null
+    },
+    {
+        "domains": ["Bouldering"],
+        "principle": "Place feet with confidence without making sound.",
+        "reference": null
+    },
+    {
+        "domains": ["Business", "Decision Making"],
+        "principle": "Find a simple idea and take it seriously.",
+        "reference": null
+    },
+    {
+        "domains": ["Business", "Decision Making"],
+        "principle": "Good ideas are rare. When you find one bet heavily.",
+        "reference": null
+    },
+    {
+        "domains": ["Learning"],
+        "principle": "Humans have been writing down their best ideas for 5,000 years. Read them.",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "Avoiding stupid mistakes is more important than being smart.",
+        "reference": null
+    },
+    {
+        "domains": ["Business", "Relationships"],
+        "principle": "Don't work with anyone you don't admire.",
+        "reference": null
+    },
+    {
+        "domains": ["Business", "Personal Development"],
+        "principle": "Don't sell anything you wouldn't buy.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development", "Psychology"],
+        "principle": "Avoiding a bad habit is easier than breaking a bad habit.",
+        "reference": null
+    },
+    {
+        "domains": ["Business", "Decision Making", "Productivity"],
+        "principle": "Work on your best idea. Don't diversify.",
+        "reference": null
+    },
+    {
+        "domains": ["Business", "Management"],
+        "principle": "Get the incentives right.",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling", "Communication"],
+        "principle": "The storyteller is the most powerful person in the world.",
+        "reference": null
+    },
+    {
+        "domains": ["Relationships"],
+        "principle": "Be dependable for your tribe.",
+        "reference": null
+    },
+    {
+        "domains": ["Business", "Relationships"],
+        "principle": "Trust is one of the greatest economic forces on Earth.",
+        "reference": null
+    },
+    {
+        "domains": ["Business"],
+        "principle": "Don't over optimize for growth at the expense of durability.",
+        "reference": null
+    },
+    {
+        "domains": ["Business"],
+        "principle": "Great businesses are built by going ridiculously far in maximizing or minimizing one or a few things.",
+        "reference": null
+    },
+    {
+        "domains": ["Productivity"],
+        "principle": "Do the unpleasant task first.",
+        "reference": null
+    },
+    {
+        "domains": ["Productivity"],
+        "principle": "Don't multitask.",
+        "reference": null
+    },
+    {
+        "domains": ["Learning"],
+        "principle": "Learning is changing behavior.",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "Avoiding stupidity for a long time is genius.",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "Many hard problems are solved best when approached backwards.",
+        "reference": null
+    },
+    {
+        "domains": ["Learning"],
+        "principle": "Think of ideas as tools. When a better tool comes along use it.",
+        "reference": null
+    },
+    {
+        "domains": ["Learning"],
+        "principle": "Make friends with smart dead people. Steal their ideas. They don't need them anymore.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology", "Communication"],
+        "principle": "Telling people WHY increases compliance.",
+        "reference": null
+    },
+    {
+        "domains": ["Business", "Career Development"],
+        "principle": "Stay in the game long enough to get lucky.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Stack cash to survive unexpected problems and seize unexpected opportunities.",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making", "Psychology"],
+        "principle": "Don't confuse intelligence with invincibility.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "Panic spreads and compounds quickly.",
+        "reference": null
+    },
+    {
+        "domains": ["Business", "Decision Making"],
+        "principle": "If you're not winning then scale down and intensify.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation", "Psychology"],
+        "principle": "Appeal to interest, not to reason.",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "Understanding opportunity cost is a superpower.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology", "Marketing"],
+        "principle": "People often interpret price as a signal for quality.",
+        "reference": null
+    },
+    {
+        "domains": ["Learning"],
+        "principle": "Learning from history is a form of leverage.",
+        "reference": null
+    },
+    {
+        "domains": ["Management", "Leadership"],
+        "principle": "Make sure your best players get the most playing time.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology", "Mental Health"],
+        "principle": "Self pity has no utility.",
+        "reference": null
+    },
+    {
+        "domains": ["Career Development", "Personal Development"],
+        "principle": "Find out what you are best at. Then pound away at it. Forever.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "Envy is weakness.",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making", "Psychology"],
+        "principle": "Emotion blurs judgement.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Use money to buy freedom.",
+        "reference": null
+    },
+    {
+        "domains": ["Business", "Marketing"],
+        "principle": "Build scalable offer only after proving it works at premium.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing"],
+        "principle": "Mine Amazon reviews for exact customer language.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing", "Sales"],
+        "principle": "Describe the customer's problem better than they can.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing"],
+        "principle": "Use 3-star reviews to find unmet needs.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing", "Sales"],
+        "principle": "Maximize the clarity of the dream dream outcome.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing", "Sales"],
+        "principle": "Increase perceived likelihood of success.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing", "Sales"],
+        "principle": "Decrease time delay to results.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing", "Sales"],
+        "principle": "Reduce effort and sacrifice required.",
+        "reference": null
+    },
+    {
+        "domains": ["Business", "Marketing"],
+        "principle": "Start from n = many and let the user navigate to the n = 1 with convenience.",
+        "reference": null
+    },
+    {
+        "domains": ["Data Visualization"],
+        "principle": "Visualize best initiatives: plot feasibility by perceived value, and use the cost to determine the data point size (optionally use a colored legend to indicate an additional status per data point such as the completion of pre-requisites or the department involved).",
+        "reference": null
+    },
+    {
+        "domains": ["Data Visualization"],
+        "principle": "Each visual element on the dashboard must have an answer to the question \"how does it help the viewer better understand the data?\".",
+        "reference": null
+    },
+    {
+        "domains": ["Data Visualization"],
+        "principle": "Sufficient whitespace builds clarity for the viewer.",
+        "reference": null
+    },
+    {
+        "domains": ["Data Visualization"],
+        "principle": "Area-based visuals are more difficult for the brain to interpret (e.g. pie chart, treemap).",
+        "reference": null
+    },
+    {
+        "domains": ["Data Visualization"],
+        "principle": "Less is more.",
+        "reference": null
+    },
+    {
+        "domains": ["Data Visualization"],
+        "principle": "Let the dashboard layout naturally tell a story and guide the user through the different data points to learn that story.",
+        "reference": null
+    },
+    {
+        "domains": ["Data Visualization"],
+        "principle": "KPI cards must be contextualized by the other visuals in the page.",
+        "reference": null
+    },
+    {
+        "domains": ["Data Visualization"],
+        "principle": "Be mindful that people typically read information top to bottom and left to right, but it is dependent on culture.",
+        "reference": null
+    },
+    {
+        "domains": ["Productivity", "Personal Development"],
+        "principle": "Direct your attention, time, and energy consciously.",
+        "reference": null
+    },
+    {
+        "domains": ["Career Development", "Financial Wealth"],
+        "principle": "Economic security requires sustained focus on the most productive opportunities.",
+        "reference": null
+    },
+    {
+        "domains": ["Career Development"],
+        "principle": "Accept the necessity of hard work.",
+        "reference": null
+    },
+    {
+        "domains": ["Career Development"],
+        "principle": "Don't follow your passion, follow your talent.",
+        "reference": null
+    },
+    {
+        "domains": ["Career Development"],
+        "principle": "Take the time to ascertain your talent.",
+        "reference": null
+    },
+    {
+        "domains": ["Career Development"],
+        "principle": "Focus on mastery, passion will follow.",
+        "reference": null
+    },
+    {
+        "domains": ["Career Development", "Learning"],
+        "principle": "Iterate constantly, take chances, try new things.",
+        "reference": null
+    },
+    {
+        "domains": ["Career Development"],
+        "principle": "Market dynamics trump individual performance so give yourself the best chance by going where opportunities are the greatest.",
+        "reference": null
+    },
+    {
+        "domains": ["Career Development", "Communication"],
+        "principle": "Nurture your communication skills.",
+        "reference": null
+    },
+    {
+        "domains": ["Career Development"],
+        "principle": "Make career choices based on culture and skills.",
+        "reference": null
+    },
+    {
+        "domains": ["Career Development", "Relationships"],
+        "principle": "Work with people who can get the best of you.",
+        "reference": null
+    },
+    {
+        "domains": ["Career Development"],
+        "principle": "Look beyond the obvious careers: don't discount the Main Street Economy and follow your talent.",
+        "reference": null
+    },
+    {
+        "domains": ["Career Development"],
+        "principle": "Get to a city, go to the office.",
+        "reference": null
+    },
+    {
+        "domains": ["Career Development", "Decision Making"],
+        "principle": "Know when to quit: persistence is a virtue until it becomes a suicide pact.",
+        "reference": null
+    },
+    {
+        "domains": ["Career Development"],
+        "principle": "Be loyal to people, not companies.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Prune your hobbies: let go of hobbies that no longer suit you.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Match your actions to your intentions.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Build character for the long term: it will protect you from temptations.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development", "Decision Making"],
+        "principle": "Slow down: notice unconscious decisions and think before acting.",
+        "reference": null
+    },
+    {
+        "domains": ["Emotional Regulation"],
+        "principle": "Acknowledge emotional responses: don't deny anger, shame, or fear, but don't let them determine your actions.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development", "Productivity"],
+        "principle": "Train your habits.",
+        "reference": null
+    },
+    {
+        "domains": ["Productivity"],
+        "principle": "Don't mistake planning for action.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "Seek rewards but don't depend on them.",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "Recognise the role of luck.",
+        "reference": null
+    },
+    {
+        "domains": ["Mental Health"],
+        "principle": "Sweat: the correlation between regular exercise and health, success, and happiness is undeniable.",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "Make good decisions: start by reviewing bad decisions and be aware of your decision-making process.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development", "Decision Making"],
+        "principle": "At the end, you'll likely regret the risks you didn't take more than the fallout from the ones you did.",
+        "reference": null
+    },
+    {
+        "domains": ["Career Development", "Relationships"],
+        "principle": "Success depends on your network and the health of your ecosystem.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development", "Mentoring"],
+        "principle": "Seek out guardrails and advice.",
+        "reference": null
+    },
+    {
+        "domains": ["Relationships"],
+        "principle": "Tip well.",
+        "reference": null
+    },
+    {
+        "domains": ["Relationships", "Financial Wealth"],
+        "principle": "Make rich friends: wealthy people are models for living with money, offer access to opportunities, and elevate your ambitions.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth", "Communication"],
+        "principle": "Talk about money openly.",
+        "reference": null
+    },
+    {
+        "domains": ["Relationships"],
+        "principle": "Invest in your (romantic) partnership to have another person to go through with life together.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Convert your income into capital — capital is money put to work to create value.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Investing is providing capital in exchange for a share of that value: wealth is achieved through investing, not income alone.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Learn about the economy.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Diversify to maximise returns, not upside: your objective is steady, long-term gains to let compound interest work its magic, not put all your eggs in the one basket you think will yield the highest return.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "You sell your time and exchange for money, which in turn you then exchange that money for the fruits of other people's time.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Risk is the price of a return: the riskier the investment, the higher the potential return.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Money you have today is worth more than money promised tomorrow; Money promised tomorrow is worth more than money promised in a year; Money promised from a trusted source is worth more than money promised from an unknown and/or unreliable source.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Invest mainly in passive, diversified, low-cost securities, such as Exchange Traded-Funds (ETF).",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Set aside a small portion of your savings for active market investing.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Buy a home when it's the right time in your life: owning a home is the way most people invest in real estate, but home-ownership is a life-stage decision first, an investment decision second.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Be wary of fees.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Be aware of taxes.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Time your taxes.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth", "Decision Making"],
+        "principle": "Discount your emotions.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Don't day trade.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development", "Productivity"],
+        "principle": "Value your time above all your other assets.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Appreciate the power of compound interest.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Beware the power of inflation: the flipside of compound interest is your money being worth less over time.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Be rationally obsessed with money.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Track your actual spending.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Save some money, even just a little, every month.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Avoid financial commitments: subscriptions, payment plans, and assets that require maintenance.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Stabilise your spending.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Determine your \"head above water\" budget.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Account for your evolving preferences.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Set achievable, short-term savings goals.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Make spending a thoughtful choice.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Organise your expenses into three buckets: day to day expenses, intermediate expenses including tuition and house down payments, and long-term savings for investments.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Keep your intermediate bucket funded with low variability and high liquidity investments.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Take the match on pension plans funded by your employer.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Bad things happen and you will make mistakes: these are reasons to adjust your plans, not abandon them.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Diversify, diversify, diversify.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Balance risk across portfolio not with investments values but with risk profiles of financial instruments.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "No one beats the market.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Time in the market beats timing the market.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology", "Financial Wealth"],
+        "principle": "Money moves us for one or more basic human need: certainty/comfort, uncertainty/variety, significance, love and connection, growth, contribution.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Do not confuse time-weighted returns (direct comparison between initial and final values) with dollar-weighted return (the amount actually kept by the investor in the end).",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Only pick a fiduciary if they are not affiliated with deal broker, don't offer proprietary funds, don't charge more than 1.25% in advisory fees, don't receive compensation for trading stocks or bonds, invest your money in a reputable third-party custodian, and the fiduciary has reputable credentials.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Expect to see yearly corrections happen in the market, namely watching a market fall by 10%, which historically last 54 days on average.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "When a market falls by 20% that's what people call a bear market; when it grows by 20% it's a bull market.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "The market isn't looking at where the economy is today, it's looking at where the economy is headed tomorrow.",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "Search for contradictory data, not confirmation of your beliefs.",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "Do not mistake recent events for ongoing trends.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Trade less.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Lower your investment fees.",
+        "reference": null
+    },
+    {
+        "domains": ["Learning"],
+        "principle": "Be more open to views that contradict your own.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth"],
+        "principle": "Reduce risk by diversifying globally.",
+        "reference": null
+    },
+    {
+        "domains": ["Financial Wealth", "Decision Making"],
+        "principle": "Plan ahead of time to avoid emotional decisions during market shifts.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "\"Make the impossible possible\".",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "Ask yourself \"what would it take?\".",
+        "reference": null
+    },
+    {
+        "domains": ["Learning"],
+        "principle": "Do so many reps that the chance of failing becomes almost non-existent.",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "\"If you resolved this obstacle, would you follow through on the idea?\".",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Approach situations with a challenger mindset.",
+        "reference": null
+    },
+    {
+        "domains": ["Learning"],
+        "principle": "Remain curious.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Never settle.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Default to change as a possibility.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Remain adaptable.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Don't take things for granted.",
+        "reference": null
+    },
+    {
+        "domains": ["Productivity"],
+        "principle": "Atomic steps.",
+        "reference": null
+    },
+    {
+        "domains": ["Productivity"],
+        "principle": "Prepare ahead of execution.",
+        "reference": null
+    },
+    {
+        "domains": ["Management", "Leadership"],
+        "principle": "Look for the bright spots to detect malleable patterns for change.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Script the critical moves.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "You fall to the highest level of preparation.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Your output rises to the level of your standards.",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "When you feel stuck with an idea ask yourself: \"Is this rigidity or resolve?\".",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "Make reversible decisions immediately.",
+        "reference": null
+    },
+    {
+        "domains": ["Productivity"],
+        "principle": "Re-prioritize work daily.",
+        "reference": null
+    },
+    {
+        "domains": ["Productivity"],
+        "principle": "Remove before adding something new.",
+        "reference": null
+    },
+    {
+        "domains": ["Emotional Regulation"],
+        "principle": "Okay, I have lost this one. But how am I actually impacted by the loss?.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "The mission comes first.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "Retreat is not an option.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "A maniacal sense of urgency is our operating principle.",
+        "reference": null
+    },
+    {
+        "domains": ["Business", "Management"],
+        "principle": "Product design should be driven by engineers. You should not separate engineering from product design.",
+        "reference": null
+    },
+    {
+        "domains": ["Business", "Management"],
+        "principle": "Having separate design and production departments is bullshit. Keep everything together and feedback immediate.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "The leader should be on the front lines. You should be a battlefield general.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "\"If they see the general out on the battlefield, the troops are going to be motivated. Wherever Napoleon was, that's where his armies would do best.\".",
+        "reference": null
+    },
+    {
+        "domains": ["Business", "Management"],
+        "principle": "Apply The Algorithm constantly. (1) Question every requirement. (2) Delete any part of the process you can. (3) Simplify and optimize. (4) Accelerate cycle time. (5) Automate.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Repetition is persuasive. \"I think it's helpful to say it to an annoying degree.\".",
+        "reference": null
+    },
+    {
+        "domains": ["Business"],
+        "principle": "You should go ultra-hardcore on deletion and simplification.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Camaraderie is dangerous. It makes it hard for people to challenge each other's work.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "Never ask your troops to do something you wouldn't do.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Hire for attitude. Skills can be taught. Attitude changes require a brain transplant.",
+        "reference": null
+    },
+    {
+        "domains": ["Business"],
+        "principle": "The only rules are the ones dictated by the laws of physics. Everything else is a recommendation.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "Keep your entire company committed to a common goal.",
+        "reference": null
+    },
+    {
+        "domains": ["Business"],
+        "principle": "If things aren't going well, throw away the existing design, start from first principles, question every requirement based on fundamental physics.",
+        "reference": null
+    },
+    {
+        "domains": ["Business"],
+        "principle": "Find the limit. You want to delete as much as possible and you can't do that unless you find the limit.",
+        "reference": null
+    },
+    {
+        "domains": ["Business"],
+        "principle": "If you aren't adding back at least 10% of the things you deleted, then you didn't delete enough.",
+        "reference": null
+    },
+    {
+        "domains": ["Business"],
+        "principle": "Maintain control. Avoid joint ventures. Eliminate middlemen.",
+        "reference": null
+    },
+    {
+        "domains": ["Business"],
+        "principle": "Have a relentless dedication to questioning every requirement.",
+        "reference": null
+    },
+    {
+        "domains": ["Productivity"],
+        "principle": "No work about work, just work.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Go to the problem. Get on the plane. Fly to the source. Go to the exact location in the factory. Go to the problem and stay there until it's resolved.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Be wired for war.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "Do not fear losing. It hurts the first 50 times but then you'll be able to play with less emotion. You will take more risks.",
+        "reference": null
+    },
+    {
+        "domains": ["Business"],
+        "principle": "Stay heads down focused on doing useful things for civilization.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "When something is important and has to be done quickly, have meetings every 24 hours to run the algorithm and check on the previous days progress. You'll be shocked at how fast this speeds things up.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Life needs to be interesting and edgy.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "Create systems or environments that don't promote the behaviours you want others to avoid.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "Do not bark orders - share your vision and create space for the team to take initiative and adapt.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "Back up decisions made by your team or they will not take the initiative.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "Ensure the team knows what the goal looks like.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "Show the team has your support when delivering on their decisions.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "Avoid doing half-suggestions.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "When you fail, take ownership of it by finding a solution, or at least asking for help, and communicate how you mitigate the risk in the future.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "\"Is now a bad time to talk?\".",
+        "reference": null
+    },
+    {
+        "domains": ["Mentoring", "Learning"],
+        "principle": "People need four aspects to learn how to something effectively: goal (what needs doing), how (what procedures are required, show it to them and make them repeat it until they achieve the same result), when (what is the deadline), and why (what is the motivation and impact to overarching plans).",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing", "Business"],
+        "principle": "When trying new ideas, bet on the innovators and the early adopters to buy into it. Let these two prove the effectiveness of your idea then the rest will eventually come along (diffusion of innovation theory).",
+        "reference": null
+    },
+    {
+        "domains": ["Mentoring"],
+        "principle": "When someone show you their work, don't immediately provide your opinion. Ask them \"how do you feel about this?\" to incentivise critical thinking.",
+        "reference": null
+    },
+    {
+        "domains": ["Business"],
+        "principle": "Promise late. deliver early.",
+        "reference": null
+    },
+    {
+        "domains": ["Learning"],
+        "principle": "Learn fast.",
+        "reference": null
+    },
+    {
+        "domains": ["Business"],
+        "principle": "Bet big. test small.",
+        "reference": null
+    },
+    {
+        "domains": ["Relationships"],
+        "principle": "Give first, ask last.",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "Treasure facts.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Never slander.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Deserve nothing, earn everything.",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "How to stop browsing and choose: decide how many options total you're willing to look at, reject the first 37% as the calibration sample, then pick the next best option you find after calibration.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "Learn the dream of everyone in the team, understand how those dreams can be scaled to right now, identify how they best match up to the current challenge, and execute.",
+        "reference": null
+    },
+    {
+        "domains": ["Relationships"],
+        "principle": "Assume the best in others until proven otherwise.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "You can't shoot a cannon from a canoe. Build your foundations first.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Call it out when people do things well.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "Uphold the gold standard with your actions.",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "\"Is this a ridiculous idea?\".",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "Involvement breeds attachment.",
+        "reference": null
+    },
+    {
+        "domains": ["Business"],
+        "principle": "An iteration is not good enough if it is not presentable.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "First fix the process, only then investigate if it is a people problem.",
+        "reference": null
+    },
+    {
+        "domains": ["Productivity"],
+        "principle": "How to destroy time assassins: list your last ten major decisions, classify each as necessary or hand grenade, detect patterns in the decisions (e.g. rushing, micro-managing, panic), write down the pattern, write down actions destroy the assassin.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "Use transformational leadership: set a clear expected outcome, define how it will be measured, and coach when they fall short.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Start by fixing details, not big problems.",
+        "reference": null
+    },
+    {
+        "domains": ["Business"],
+        "principle": "Missed opportunities are not problems, you must have the bandwidth and resources to capitalise on those opportunities the right way.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "Don't look for 100% buy in from the team about new ideas. Get them to execute as if they believe it and once you get results then they will give you support in earnest.",
+        "reference": null
+    },
+    {
+        "domains": ["Business"],
+        "principle": "Don't bet on the horse, bet on the jockey.",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "Nothing is better than the wrong thing.",
+        "reference": null
+    },
+    {
+        "domains": ["Business"],
+        "principle": "A flywheel is a self-reinforcing loop, once it's in motion it is unstoppable momentum.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Don't suddenly put someone to the side without letting them know what they have done wrong.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Show up at the office.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Don't delay positive feedback.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Don't let negative feedback accumulate.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Criticise the idea, not the person.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Practice tactical empathy via labelling, mirroring, and asking calibrated questions.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Don't delay difficult conversations.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "Practice an infinite game mindset at all times.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Communicate clearly and often.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Go into conversations open to the idea that the other person can teach you something new.",
+        "reference": null
+    },
+    {
+        "domains": ["Relationships"],
+        "principle": "Celebrate each other's success.",
+        "reference": null
+    },
+    {
+        "domains": ["Emotional Regulation"],
+        "principle": "Don't just take actions and words at face value, use empathy to understand how the other person is doing.",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "Play the devil's advocate: how has your behaviour impacted the outcome.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "\"What's on your mind?\".",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "\"And What Else?\".",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology", "Communication"],
+        "principle": "Be careful not to fall on the drama triangle during exchanges: victim, rescuer, or persecutor.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Soften your calibrated questions by adding \"out of curiosity\", \"just so I know\", \"to help me understand better\", \"to make sure that I'm clear\".",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Understand whether you need to upskill (scale up) or find more people (scale out).",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "What do you say no to by saying yes to this.",
+        "reference": null
+    },
+    {
+        "domains": ["Management", "Leadership"],
+        "principle": "Change happens when you give the Rider clear direction, engage the Elephant's emotions and provide motivation, and shape the Path conducive to change.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Look for the bright spots, understand under which conditions they occur, then increase the frequency of those conditions to have more bright spots.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "Mention the people already compliant, it will appeal to the sense of belonging of the remaining group.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Model, then modify.",
+        "reference": null
+    },
+    {
+        "domains": ["Productivity"],
+        "principle": "Create systems and processes to avoid repetitive tasks.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Direct the Rider: follow the bright spots to clone successes, send them a destination postcard to give both a start and end, and script their critical moves to avoid slippage.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Shrink the change.",
+        "reference": null
+    },
+    {
+        "domains": ["Management", "Mentoring"],
+        "principle": "List what the team is not doing well, create training for it, then distribute.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "What looks like resistance is often lack of clarity.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Shrink the change until it's almost nothing to take the first step.",
+        "reference": null
+    },
+    {
+        "domains": ["Mentoring"],
+        "principle": "\"Would you agree you're doing less than your potential allows you to?\".",
+        "reference": null
+    },
+    {
+        "domains": ["Mentoring"],
+        "principle": "Five reasons for your actions to not match your potential: you don't know you're meant to be doing that task, you don't know what you're meant to do, you don't know how to do it, you're not motivated to do it, or something is in your way of doing the thing.",
+        "reference": null
+    },
+    {
+        "domains": ["Decision Making"],
+        "principle": "ICE framework for evaluating change: Impact of the change, Confidence of successful implementation, and Ease of implementation.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Use one-on-one work to learn what actually works.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Iterate in real-time with end-users of the process.",
+        "reference": null
+    },
+    {
+        "domains": ["Management"],
+        "principle": "Money attracts talent, culture keeps talent.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology", "Management"],
+        "principle": "When something or someone doesn't perform as you want, react in a way that increases you desired behavior, not what your emotions dictate.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Don't commit to assumptions.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Negotiation is a process of discovery.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Slow it down so the other person can feel heard and secure.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation", "Psychology"],
+        "principle": "Smile to facilitate your positive frame of mind, which allows you to think more quickly, and be more likely to collaborate and problem-solve.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Mirroring is the art of insinuating similarity, leading to easier bonds.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Put out a label.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Understand the feelings and mindset of the other person while paying attention to what is behind those feelings - tactical empathy.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Boost your image with accusation audits.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Embrace \"No\".",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "\"That's right\" - never \"you're right\".",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Listen, listen, listen.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Never split the difference.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "No deal is better than a bad deal.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "\"We just want what's fair\" - \"Okay, I apologize. Let's stop everything and go back to where I started treating you unfairly and we'll fix it.\".",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Create the illusion of control.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Anchor their emotions > Let the other person go first > Establish a range > Pivot to nonmonetary terms > Use odd numbers > Surprise with a gift.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "What and How questions will carry you through most of the negotiation.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Remain calm.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "\"Yes\" is nothing without \"How\".",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Always consider the committee responsible for calling the shots in the background.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "The more first-person pronouns used (I / me / my), the less important the other person is.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "Negotiators and people with power will not yield to use first-person pronouns - they will use plenty of we / they / them instead.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Avoid saying \"no\" outright - let calibrated questions soften the blow.",
+        "reference": null
+    },
+    {
+        "domains": ["Relationships", "Communication"],
+        "principle": "Don't treat others the way you want to be treated; tread them the way they need to be treated.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "The other person is never the problem — the problem is always the unsolved issue.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Set your target price > Throw a first offer that is 65% of your target price > Use a maximum of three raises of decreasing increments (move to 85, then 95 and finally 100%) > For the final amount, use precise non-round numbers to create a sense of credibility and weight >For your final value, also throw in a nonmonetary item to show you're at your limit.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Find the Black Swan(s).",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "If you can trigger the \"we see the world the same way\" moment then your influence increases.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "People respond favourably to requests made in a reasonable tone of voice followed with a because reason.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "They are not crazy, they are ill-informed, constrained, or have other interests.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Observe unguarded moments.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Pay attention to body language.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Pay attention to tone of voice, not simply the words spoken.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Ask yes/no questions such that you hear back a no.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Three avenues of information you don't have about the other party: they are ill-informed, they are constrained, and/or they have other interests.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "People love to correct others.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Don't challenge the other person's beliefs - ask them to explain them.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "People are driven by loss, not by gain.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Specificity or bluff: who, what, when, and how.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Using ego depletion in negotiation will create problems when the other party recovers.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Silence can give you time to think, listen, and observe the other party's reactions and body language.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Start with a request that is almost sure for the other party to say no - then follow up with the real request which will be much tamer in comparison and likely to be accepted.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "Purposely say an incorrect statement when you want to learn information as people love to correct others and will hand you the information without realising.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Win through your actions, never through argument.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "When asking for help, appeal to people's self-interest, never to their mercy or gratitude.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "Play a sucker to catch a sucker.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Separate the person from the problem - separate the emotion.",
+        "reference": null
+    },
+    {
+        "domains": ["Negotiation"],
+        "principle": "Don't get wrapped up in the other party's position but instead focus on their interests to understand what they really want - shift from what they are asking to why they are asking for it.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Avoid inflecting your voice as it will cause suspicion and uncertainty on the other listener.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "Cues to detect liars: voice inflection (during questions), volume drop, incongruencies between verbal and body language, subconscious disgust expression or even sniff while telling the lie, pauses (halts) during speech.",
+        "reference": null
+    },
+    {
+        "domains": ["Career Development"],
+        "principle": "\"Assuming this interview went well and I get the job, what actions will I need to take as an employee so that in one year's time you have a positive outlook on my hire?\".",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Meet emotion with emotion, meet rationality with rationality.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Greet everyone in the room.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Use people's names during conversations.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Change yourself, not others.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "Change the environment, not others.",
+        "reference": null
+    },
+    {
+        "domains": ["Mentoring"],
+        "principle": "Don't help people not looking for help.",
+        "reference": null
+    },
+    {
+        "domains": ["Mental Health"],
+        "principle": "Mental resilience keeps you emotionally composed during a crises, help you problem-solve effectively, and allows you to quickly recover from mental hardship.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "People lie in three primary ways: tell a complete lie, mix the truth with false elements, or lie by omission.",
+        "reference": null
+    },
+    {
+        "domains": ["Mental Health"],
+        "principle": "Anxiety comes from many options but no priorities. Sadness comes from a perceived lack of options.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "The person who needs nothing can't be controlled.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Remember people's names.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Ask how and what questions to spark conversations, i.e., let the other person speak.",
+        "reference": null
+    },
+    {
+        "domains": ["Leadership"],
+        "principle": "Uphold a higher standard if you want others to operate at a higher level.",
+        "reference": null
+    },
+    {
+        "domains": ["Mental Health"],
+        "principle": "Anxiety can be a mask for aimlessness.",
+        "reference": null
+    },
+    {
+        "domains": ["Mental Health"],
+        "principle": "Anxiety can lead to picking easy choices, greediness, loss of direction, and susceptiveness for manipulation.",
+        "reference": null
+    },
+    {
+        "domains": ["Mental Health"],
+        "principle": "Be alone and in silence to truly tune to the self.",
+        "reference": null
+    },
+    {
+        "domains": ["Relationships"],
+        "principle": "Fundamental differences in the self will lead to failed romantic relationships.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Attune to the early childhood self to find clues about directions in life (i.e. before being constrained by the surrounding world).",
+        "reference": null
+    },
+    {
+        "domains": ["Mental Health"],
+        "principle": "Be careful about indulging in the present to escape anxiety and the inevitable passage of time.",
+        "reference": null
+    },
+    {
+        "domains": ["Mental Health", "Productivity"],
+        "principle": "Shift negative emotions with action: Overthinking > write, Uninspired > read, Scared > take a risk, Stuck > walk, Tired > sleep, Confused > ask, Frustrated > move, Burned out > take a day off, Impatient > review progress, Unmotivated > remember your \"why\".",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "\"I was just thinking of you\".",
+        "reference": null
+    },
+    {
+        "domains": ["Charisma"],
+        "principle": "Charisma = warmth + competence.",
+        "reference": null
+    },
+    {
+        "domains": ["Charisma", "Communication"],
+        "principle": "Warmth body language cues: head tilt, palms up.",
+        "reference": null
+    },
+    {
+        "domains": ["Charisma", "Communication"],
+        "principle": "Competence body language cues: palms down, expansive body position.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "People who respond to warmth want to be inspired. People who respond to competence want to be informed.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing", "Psychology"],
+        "principle": "Use colours: red inspires action, blue trigger calm and trust, green inspires action, yellow induces warmth in moderation.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "9 self-explanatory universal needs: affection, creation, recreation, freedom, identity, understanding, participation, protection, subsistence.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Obsession is the antidote to mediocrity, action the antidote to anxiety, and purpose the antidote to laziness. We aren't broken. We just need something to live for.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "When did the current behaviour, which now doesn't make sense, ever make sense? In what circumstance did this pattern emerge and make sense?.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Give one more sentence than needed to keep the conversation rolling.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Start sentences with \"The one thing…\" to avoid rambling.",
+        "reference": null
+    },
+    {
+        "domains": ["Mental Health"],
+        "principle": "Mental toughness: tolerance, fortitude, resilience, adaptability.",
+        "reference": null
+    },
+    {
+        "domains": ["Mental Health"],
+        "principle": "Tolerance: how long it takes before you falter from a negative experience.",
+        "reference": null
+    },
+    {
+        "domains": ["Mental Health"],
+        "principle": "Fortitude: how low you falter for from a negative experience.",
+        "reference": null
+    },
+    {
+        "domains": ["Mental Health"],
+        "principle": "Resilience: how long it takes to recover from a negative experience.",
+        "reference": null
+    },
+    {
+        "domains": ["Mental Health"],
+        "principle": "Adaptability: your new baseline fortitude after recovery from a bad experience, which can be lower, match, or higher than the previous baseline.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Cherish customers at all times.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Treat customers as you would your best friend.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Listen to customers and decipher their needs.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Make (or give) customers what they need.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Price your product to its dollarized value.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales", "Marketing"],
+        "principle": "Show customers the dollarized value of what they will get.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Teach customers to want what they need.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Make your product the way customers want it.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Get your product to your customers when they want it.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Give you customers a little extra, more than they expect.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Remind customers of the dollarized value they received.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Thank each customer sincerely and often.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Ask to do it again.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Always answer the question \"Why should this customer do business with us?\".",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Customers don't care about you.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Always pre-call plan every sales call.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Fish where the big fish are.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Earthquakes don't count.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Always take the best seat in the restaurant and have your back sat against the wall to avoid a distracting background.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Rainmakers turn customer objections into customer objectives.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Treat everybody you meet as a potential customer.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "The biggest buy signal is the sales call appointment.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "\"Yes, that is a good company. Would you like to know our points of difference?\".",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Always return every call every day.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Rainmakers don't plan a thirty-mile trip with twenty miles worth of gas.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Beware the myth of time and territory management.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Rainmakers always test in private what they are going to sell in public.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Dare to be dumb.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Always be on \"high receive\".",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "If you don't care about the answer then don't ask the question.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Never be in a meeting, be with the customer when they need you.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "\"If the demo is successful, is there anything else prohibiting you from going ahead?\".",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Sell before 8 in the morning or on Friday afternoons.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Break the ice at the end of the sales call.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Get a combination of 4 points everyday: 1 for each lead or referral, 2 for each appointment with a decision maker, 3 for each decision maker you meet face to face, or 4 for each sale you close.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "A shot on goal is never a bad play.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Don't make cold calls.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Sell the link and you sell the chain.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "\"Why don't you give it a try?\".",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Be the best-dressed person you will meet today.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Use business cards.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "\"What question should I be asking that I am not asking?\".",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Talk to a satisfied customer and ask who else you might help.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Add fifteen people to your mailing list.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Call a customer you haven't talked to in two years.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Be organised.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Call only decision makers.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Always have a written sales call objective.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Asks pre-planned questions.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Be empathetic with customers.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Reframe by asking questions that increase the likelihood of the sale.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "3A: Acknowledge what the customer says, Associate with a positive behaviour, and Ask follow-up questions.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Never disagree with a customer.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "If in a meeting that requires a follow-up meeting, book it before you leave.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Ensure your narrative is congruent every step of the way.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Build a room full floor to ceiling of testimonials.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Engineer the environment that makes the sale possible.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Throw out anything that does not contribute to engineering the environment that maximizes the probability of closing the sale.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "A playful tone of voice out of the gate will allow tone shifts throughout the exchange to emphasise your points.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Give them a \"because\" to close.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales", "Psychology"],
+        "principle": "Scarcity creates value.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "The choice of two, never more than two.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Undercharge and overdeliver.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Do not sell yourself out of a sale.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Preface the price with \"it's expensive\" to defuse big reactions.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing", "Sales"],
+        "principle": "Make an offer people feel stupid saying no to.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing", "Sales"],
+        "principle": "Value = (dream outcome for the client + perceived likelihood of achievement) / (time delay between buying and getting the outcome + effort + sacrifice).",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing"],
+        "principle": "Give away the information, sell the personalisation.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing", "Business"],
+        "principle": "What knowledge do I have today, on a subject I'm passionate about, that I would have paid for 2-3 years ago?.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing", "Business"],
+        "principle": "Your niche is the overlap of what you're good at, what people will pay for, and what you enjoy doing.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Wait 8 seconds after you ask for the sale.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Create curiosity: \"Hi, this is [your name] calling in regards to [their competitor]. Give me a call back when you get a chance.\".",
+        "reference": null
+    },
+    {
+        "domains": ["Business"],
+        "principle": "Look at what everyone else is doing then do it in half the time.",
+        "reference": null
+    },
+    {
+        "domains": ["Psychology"],
+        "principle": "Reciprocity is a strong psychological wiring.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Personalization in service is king to hook clients.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Unexpected value is always welcome.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Get a \"this or that\" question early into the conversation to get people into the buying mindset by making a choice.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing"],
+        "principle": "Avoid middle pricing - go extremely high or extremely low.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing"],
+        "principle": "Start with premium prices, scale down later.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing"],
+        "principle": "Use expensive tier to make cheaper tier look reasonable - but both must be valid offers should the customer pick either.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing"],
+        "principle": "Include daily/same-day access for the premium tier.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing"],
+        "principle": "Do the work for them instead of teaching them.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing"],
+        "principle": "Design your offerings as if referrals are your only lead source.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing"],
+        "principle": "Remove every implementation task from the customer's plate.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing"],
+        "principle": "Cut timeline in half for premium clients.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing"],
+        "principle": "Reduce time to first results as much as possible without compromising the quality.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing"],
+        "principle": "Fast wins build belief, slow wins create doubt.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing"],
+        "principle": "Offer priority/skip-the-line access.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "State price clearly, then stay silent - let the customer process the investment.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Present premium price first - if they balk, reinforce the problem cost, or ultimately offer cheaper tier as downgrade option.",
+        "reference": null
+    },
+    {
+        "domains": ["Sales"],
+        "principle": "Never convince the customer - help them see they already want it.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication", "Marketing"],
+        "principle": "Be clear, not clever.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing"],
+        "principle": "The bonuses must be bigger than the offer itself.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing"],
+        "principle": "The offer must fit in a text message.",
+        "reference": null
+    },
+    {
+        "domains": ["Mentoring"],
+        "principle": "Don't ask for feedback in generic terms, instead funnel the question towards actionable feedback: \"What can i do better next time\", \"What tips do you have so i can perform better next time\", \"What are your 3 highlights from my performance\".",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Uphold high standard of performance.",
+        "reference": null
+    },
+    {
+        "domains": ["Productivity"],
+        "principle": "Read or consume thought-provoking content early in the morning to generate new ideas throughout the day.",
+        "reference": null
+    },
+    {
+        "domains": ["Learning"],
+        "principle": "Learn new things and share with the community.",
+        "reference": null
+    },
+    {
+        "domains": ["Learning"],
+        "principle": "Fail fast.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Ask yourself \"why not me?\".",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "You can just do things.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development", "Decision Making"],
+        "principle": "When listing goals, write down what you are willing to sacrifice for it.",
+        "reference": null
+    },
+    {
+        "domains": ["Learning"],
+        "principle": "How to learn: do the thing a lot, analyse the top 10% outcomes, analyse what distinguishes that top 10% from the bottom 90%, enforce the behaviours of the top 10% and avoid the mistakes from the bottom 90%.",
+        "reference": null
+    },
+    {
+        "domains": ["Productivity"],
+        "principle": "Curate your social media feeds to provide valuable information and inspiration.",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling", "Communication"],
+        "principle": "If you don't know what to write next, use a pain point, example, personal story, anecdote, statistic, metaphor, quote, advice, what, how, why.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "At your funeral, friends and family will argue over who gets your belongings. People will talk about the food and the venue. Your life will be summarized in 2-3 paragraphs. Conversations will shift from your life to their lives. Your friends will drive away thinking about what's next on their to-do list. Some people won't be able to make it because \"something came up.\" And most of the people you know today won't even be there. You're gonna die. People will move on (in weeks not years). Do what you want.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Show up early.",
+        "reference": null
+    },
+    {
+        "domains": ["Productivity"],
+        "principle": "Prepare the night before.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Say no to opportunities that don't bring value to your life.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Follow up quickly.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Follow up multiple times.",
+        "reference": null
+    },
+    {
+        "domains": ["Communication"],
+        "principle": "Deliver value at every interaction with the other person.",
+        "reference": null
+    },
+    {
+        "domains": ["Learning"],
+        "principle": "Never make the same mistake twice.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "Set standards when you're looking to set goals - then hold yourself accountable to meet those standards continuously.",
+        "reference": null
+    },
+    {
+        "domains": ["Personal Development"],
+        "principle": "First change how you view yourself when you want to change.",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling"],
+        "principle": "\"There was a bear at my door\".",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling"],
+        "principle": "Start on the general, focus on the particular.",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling"],
+        "principle": "Emulate the emotions of the character, including (subtle) changes in tone of voice and gestures.",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling"],
+        "principle": "Speak in the present tense.",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling"],
+        "principle": "Share your emotional experience throughout the story.",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling"],
+        "principle": "As a potential hook, you can have an urgent problem that your character should be taking action on immediately to start off the story.",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling"],
+        "principle": "The problem should be significant.",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling"],
+        "principle": "The problem should be pressing.",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling"],
+        "principle": "Avoid lengthy intro.",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling"],
+        "principle": "Zoom in the moment, take your audience as close to it as possible.",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling"],
+        "principle": "Give a generic location context and let their imagination fill in the details.",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling"],
+        "principle": "State your actions in the moment.",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling"],
+        "principle": "Describe your genuine thoughts in the moment.",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling"],
+        "principle": "What did you hear in the moment and/or what did people say at the time.",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling"],
+        "principle": "Start analogies with \"You know how…\" and \"You know when…\".",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling"],
+        "principle": "A great hero is characterized by feeling, order, strength, agency.",
+        "reference": null
+    },
+    {
+        "domains": ["Storytelling"],
+        "principle": "Good stories on at least one of the following: survival, connection, status.",
+        "reference": null
+    },
+    {
+        "domains": ["Marketing"],
+        "principle": "Virality happens when something crosses the threshold of being good enough to enough people.",
+        "reference": null
+    },
+    {
+        "domains": ["Strength Training"],
+        "principle": "Aim for full of range of motion on all reps.",
+        "reference": null
+    },
+    {
+        "domains": ["Strength Training"],
+        "principle": "Aim for 3 or less reps in reserve per set.",
+        "reference": null
+    },
+    {
+        "domains": ["Strength Training"],
+        "principle": "Generally speaking strength training uses sets of up to 6 reps whereas hypertrophy uses up to 30 reps.",
+        "reference": null
+    },
+    {
+        "domains": ["Nutrition"],
+        "principle": "Eat 1 to 1.3g of protein per kg of target of body weight daily.",
+        "reference": null
+    },
+    {
+        "domains": ["Mental Health"],
+        "principle": "When you think you're done you still have 40% left in the tank.",
+        "reference": null
+    },
+    {
+        "domains": ["Strength Training"],
+        "principle": "A deeper stretch emphasises muscle growth.",
+        "reference": null
+    },
+    {
+        "domains": ["Strength Training"],
+        "principle": "Control the eccentric (stretching) phase of the lift. A slower tempo can increase time under tension and enhance the stretch stimulus.",
+        "reference": null
+    },
+    {
+        "domains": ["Strength Training"],
+        "principle": "Perform exercises with good technique and controlled eccentric to minimise the risk of injury.",
+        "reference": null
+    },
+    {
+        "domains": ["Strength Training"],
+        "principle": "Grow enough muscle mass so you can at least tell apart different muscle groups in the nude.",
+        "reference": null
+    }
+]
