@@ -2,11 +2,12 @@
 
 import streamlit as st
 from utils.supabase_client import get_all_domains, get_all_formulas, get_replicated_nodes
-from utils.graph import create_replicated_network_graph, build_domain_lookup, resolve_formula_domains
+from streamlit_agraph import agraph, Node, Edge, Config
+import pandas as pd
 
 st.set_page_config(
     page_title="Golden Formulas Graph",
-    page_icon="📐",
+    page_icon="🧩",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
@@ -62,50 +63,79 @@ with col_domain_filter:
     )
 
 with col_search:
-    search_query = st.text_input(
-        "Search Principles",
-        placeholder="Type to search...",
-        help="Search formulas by principle text (case-insensitive)"
+    # Minimum domain count filter
+    min_domains = st.number_input(
+        "Minimum Domains per Formula",
+        min_value=0,
+        max_value=20,
+        value=2,
+        step=1,
+        help="Only show principles that belong to at least this many domains"
     )
-
-# Minimum domain count filter
-min_domains = st.number_input(
-    "Minimum Domains per Formula",
-    min_value=0,
-    max_value=20,
-    value=3,
-    step=1,
-    help="Only show principles that belong to at least this many domains"
-)
-
-# Convert selected names back to IDs
-selected_domain_ids = [
-    did for did, name in domain_options.items()
-    if name in selected_domain_names
-] if selected_domain_names else None
-
-# Normalize search query
-search_query_lower = search_query.strip().lower() if search_query else None
-
-# Filter replicated nodes by search query if provided
-filtered_replicated_nodes = replicated_nodes
-if search_query_lower:
-    filtered_replicated_nodes = [
-        row for row in replicated_nodes
-        if search_query_lower in row.get("principle", "").lower()
-    ]
 
 # Create and display graph
 st.markdown("---")
 
-if filtered_replicated_nodes:
-    fig = create_replicated_network_graph(
-        filtered_replicated_nodes,
-        domains,
-        selected_domain_ids,
-        min_domains
+
+# Create a principles DF to facilitate filters
+domains_df = pd.DataFrame(domains)
+# First keep all records because they represent the edges
+replicated_nodes_df = pd.DataFrame(replicated_nodes)
+# Bring domains to have their names
+replicated_nodes_df = replicated_nodes_df.merge(domains_df, how="inner", left_on="from_domain", right_on="id")
+# Now keep just 1 of each principle to generate nodes
+principles_df = replicated_nodes_df.drop_duplicates(subset=["principle"])
+
+# Apply user filters
+principles_df = principles_df.query(f"domain_count >= {min_domains}")
+# Filter dataset by domain if user selected any
+if selected_domain_names != list():
+    principles_df = principles_df.query(f"name in {selected_domain_names}")
+    domains = [domain for domain in domains if domain["name"] in selected_domain_names]
+
+# Proceed to draw the visual if there is data after filters
+if not principles_df.empty:
+    # Generate nodes for principles
+    nodes = [
+        Node(
+            id=node["principle"], 
+            label="", 
+            size=25, 
+            shape="circle",
+        ) for index,node in principles_df.iterrows()
+    ]
+    # And domains
+    nodes.extend([
+        Node(
+            id=node["name"], 
+            label=node["name"], 
+            # id=domain['id'], 
+            # label=domain["name"], 
+            shape="box",
+            color="orange"
+        ) for index,node in principles_df.drop_duplicates(subset="name").iterrows()
+    ])
+
+    # And create principle->domain edges
+    edges = [
+        Edge(
+            source=edge["principle"], 
+            label=None, 
+            target=edge['name']
+        ) for index,edge in replicated_nodes_df.iterrows()
+    ]
+
+    config = Config(
+        width=2000,
+        height=1000,
+        directed=True, 
+        physics=True, 
+        hierarchical=False,
+        navigationButtons=True
     )
-    st.plotly_chart(fig, use_container_width=True)
+    
+    selected_principle = agraph(nodes=nodes, edges=edges, config=config)
+
 else:
     st.info("No data matches the current filters.")
 
@@ -113,50 +143,27 @@ else:
 st.markdown("---")
 st.subheader("Formula List")
 
-# Build domain lookup for display
-domain_lookup = build_domain_lookup(domains)
 
+if not principles_df.empty:
+    # Only filter when user as selected a node
+    if selected_principle != None:
+        principles_df = principles_df[principles_df["principle"] == selected_principle]
+    
+    # Add domain string agg
+    # Calculated from the edges DF
+    domains_list_df = replicated_nodes_df[["principle", "name"]]
+    domains_list_df["domains_list"] = domains_list_df.groupby(["principle"])["name"].transform(lambda x: " | ".join(x))
+    domains_list_df.drop_duplicates(subset="principle", inplace=True)
+    # Then joined back to the nodes DF
+    principles_df = principles_df.merge(domains_list_df, how="inner", left_on="principle", right_on="principle", suffixes=(None, "_listy"))
 
-# Apply filters to formulas for list view
-def filter_formulas(formulas_list, domain_ids, search_text, min_dom):
-    """Filter formulas by domain, search text, and min domains."""
-    result = formulas_list
-
-    if domain_ids:
-        result = [
-            f for f in result
-            if any(did in domain_ids for did in (f.get("domain_ids") or []))
-        ]
-
-    if search_text:
-        result = [
-            f for f in result
-            if search_text in f.get("principle", "").lower()
-        ]
-
-    if min_dom > 0:
-        result = [
-            f for f in result
-            if len(f.get("domain_ids") or []) >= min_dom
-        ]
-
-    return result
-
-
-display_formulas = filter_formulas(formulas, selected_domain_ids, search_query_lower, min_domains)
-
-if display_formulas:
-    for formula in display_formulas:
-        formula_domains = resolve_formula_domains(formula, domain_lookup)
+    # Now loop through formulas to write each
+    for index, formula in principles_df.iterrows():
 
         with st.expander(f"{formula['principle'][:80]}..." if len(formula['principle']) > 80 else formula['principle']):
-            st.markdown(f"**Principle:** {formula['principle']}")
+            st.markdown(f"**Formula:** {formula['principle']}")
             st.markdown(f"**Reference:** {formula.get('reference', 'N/A')}")
+            st.markdown(f"**Domains:** {formula['domains_list']}")
 
-            if formula_domains:
-                domain_chips = " | ".join([f"**{d['name']}**" for d in formula_domains])
-                st.markdown(f"**Domains:** {domain_chips}")
-            else:
-                st.markdown("**Domains:** None assigned")
 else:
     st.info("No formulas match the current filter.")
