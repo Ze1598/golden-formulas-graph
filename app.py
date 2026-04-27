@@ -23,7 +23,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-st.title("Golden Formulas Graph")
+st.title("Golden Formulas")
 # st.markdown("Visualize principles across domains of knowledge in graph format.")
 
 
