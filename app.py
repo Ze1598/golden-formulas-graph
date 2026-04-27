@@ -49,7 +49,7 @@ if not domains and not formulas:
     st.stop()
 
 # Filter controls in main content area
-st.markdown("---")
+# st.markdown("---")
 
 min_domains = -1
 
