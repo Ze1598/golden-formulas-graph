@@ -51,7 +51,9 @@ if not domains and not formulas:
 # Filter controls in main content area
 st.markdown("---")
 
-col_domain_filter, col_search = st.columns([1, 1])
+min_domains = -1
+
+col_domain_filter, col_formula_search = st.columns([1, 1])
 
 with col_domain_filter:
     domain_options = {d["id"]: d["name"] for d in domains}
@@ -62,19 +64,15 @@ with col_domain_filter:
         help="Select domains to filter. Leave empty to show all."
     )
 
-with col_search:
-    # Minimum domain count filter
-    min_domains = st.number_input(
-        "Minimum Domains per Formula",
-        min_value=0,
-        max_value=20,
-        value=2,
-        step=1,
-        help="Only show principles that belong to at least this many domains"
+with col_formula_search:
+    formula_search = st.text_input(
+        "Search Formula Text",
+        placeholder="Type to filter formulas...",
+        help="Case-insensitive search within formula text"
     )
 
 # Create and display graph
-st.markdown("---")
+# st.markdown("---")
 
 
 # Create a principles DF to facilitate filters
@@ -92,6 +90,9 @@ principles_df = principles_df.query(f"domain_count >= {min_domains}")
 if selected_domain_names != list():
     principles_df = principles_df.query(f"name in {selected_domain_names}")
     domains = [domain for domain in domains if domain["name"] in selected_domain_names]
+# Filter by formula text search
+if formula_search.strip():
+    principles_df = principles_df[principles_df["principle"].str.contains(formula_search.strip(), case=False, na=False)]
 
 # Proceed to draw the visual if there is data after filters
 if not principles_df.empty:
@@ -134,13 +135,14 @@ if not principles_df.empty:
         navigationButtons=True
     )
     
-    selected_principle = agraph(nodes=nodes, edges=edges, config=config)
+    # selected_principle = agraph(nodes=nodes, edges=edges, config=config)
+    selected_principle = None
 
 else:
     st.info("No data matches the current filters.")
 
 # Formula list view
-st.markdown("---")
+# st.markdown("---")
 st.subheader("Formula List")
 
 
@@ -151,7 +153,7 @@ if not principles_df.empty:
     
     # Add domain string agg
     # Calculated from the edges DF
-    domains_list_df = replicated_nodes_df[["principle", "name"]]
+    domains_list_df = replicated_nodes_df[["principle", "name"]].drop_duplicates()
     domains_list_df["domains_list"] = domains_list_df.groupby(["principle"])["name"].transform(lambda x: " | ".join(x))
     domains_list_df.drop_duplicates(subset="principle", inplace=True)
     # Then joined back to the nodes DF
